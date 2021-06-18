@@ -1,0 +1,26 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  #slack: <workspace-token>
+  email:
+    recipients:
+      - ernestomm99@hotmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
+  api_key: 303f118d-655e-4efe-879d-25b04a262a2f
+  app: platzi-store-backend-eru
+  on:
+    repo: ernestozann/platzi-store-backend

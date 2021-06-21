@@ -20,7 +20,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: 303f118d-655e-4efe-879d-25b04a262a2f
+  api_key:
+    secure: "yv4k0WGtU4lm5F4Tq4cnx2KeezWzNbCoCbfHk0vs55xD+aNdIdj7jhASIX2rcQmncEuyWaLw6p7rPBtOReLKQvixLzGIB+SdhyACGIUAb3D4f9c26JwdzXLMJGF4OPZJA0FCRdwhITQl6wJA4MaCC2M9uLBRn2Wb3RQrfQLMgrqT14eg4Y+0Lx8J/wewzBoeHsTrDv3XO4YkkkOkxBDiLMjvcqLKT1eErJd9Gk9Cr0cSA551PnHkjF0KhpY6ottax84OyCgm7dvZ6obtUYQiKqkP1D76cvOf7J3rJlShhzBeQ6HorE9FRNiISCfsku0F+gWZ5fSw6f39/G2Ux4yjOz1CgbK5JLZiCyx6PS1MMWpQeHyJQQ5+bvW3EQkDGstWaJ6r4FGZcoFLUyqYGSw7yiri4QQviRWALuc/dH/QcssLV0nthpHe71Atxox3AEsmUReLPeUWES1xPot85fqE1qmY3gW28ItiqlUaFcmv1ebezez5wCSIlNM/A94J9FP2gEq+b4yC/WBrTv+YTCpZ8qzSs7CQOJk1rrOVh6rm8JPi0S/f9g6CMiALvFd7r0TULYZV0W79Wgw4etGprBUfPoh+sG5/zO7m3CNFu6GD1oUypsu6sCBx6IWwXrG38NAmcumyCwCLD0hrNW2UsAvd8wWOHrNVCxFAJcHOQzOEkA0="
   app: platzi-store-backend-eru
   on:
     repo: ernestozann/platzi-store-backend
